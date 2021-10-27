@@ -6,6 +6,7 @@ import urllib.request
 class api:
 
     class config:
+
         host = 'https://memfy.net/api'
 
     class request:

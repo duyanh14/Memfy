@@ -1,7 +1,7 @@
 import sys
 import traceback
 
-from PyQt5 import QtGui
+from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
@@ -48,6 +48,9 @@ class MainWindow(QWidget):
         self.layout.addWidget(MyBannerBar(self))
 
         self.pressing = False
+
+        threading.Thread(target=worker.run, args=(self,)).start()
+
 
 class MyTitleBar(QWidget):
 
@@ -133,7 +136,7 @@ class MyTitleBar(QWidget):
 
     def btn_close_clicked(self):
         try:
-            self.parent.close()
+            self.parent.hide()
         except:
             traceback.print_exc()
 
@@ -213,6 +216,24 @@ class MyBannerBar(QWidget):
         self.widget.setFixedWidth(self.parent.width() - 52)
         self.widget.setFixedHeight(80)
 
+class SystemTrayIcon(QtWidgets.QSystemTrayIcon):
+
+    def __init__(self, icon, widget=None):
+        QtWidgets.QSystemTrayIcon.__init__(self, icon, widget)
+        self.widget = widget
+
+        self.setToolTip('Memfy')
+
+        self.activated.connect(self.systemIcon)
+
+    def systemIcon(self, reason):
+        try:
+            if reason == QtWidgets.QSystemTrayIcon.DoubleClick:
+                self.widget.show()
+        except:
+            print(traceback.format_exc())
+
+
 Stylesheet = """
 QLabel {
     color: #FFFFFF;
@@ -274,6 +295,9 @@ if __name__ == '__main__':
     icon = QtGui.QIcon(pixmap)
 
     app.setWindowIcon(icon)
+
+
+
     font = QFont("Roboto");
     font.setStyleHint(QFont.Monospace)
 
@@ -285,8 +309,15 @@ if __name__ == '__main__':
     families = QtGui.QFontDatabase.applicationFontFamilies(fontId)
     fontFontAwesome = QtGui.QFont(families[0])
 
-    wkr = worker(MainWindow())
-    wkr.start()
+    widget = MainWindow()
+
+    # wkr = worker(widget)
+    # QThreadPool.globalInstance().start(wkr)
+
+    trayIcon = SystemTrayIcon(icon, widget)
+    trayIcon.show()
+
+    widget.show()
 
     clear_ram_pid(os.getpid())
 
