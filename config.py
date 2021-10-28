@@ -1,7 +1,8 @@
 import tempfile
 import sys
+import os
 
-TEMP_DIR = tempfile.gettempdir() + "\\Memfy"
+TEMP_DIR = tmppath = "C:\\User\\{}\\AppData\\Local\\Temp".format(os.getlogin()) + "\\Memfy"
 
 CURRENT_FILE = sys.argv[0]
 
