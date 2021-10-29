@@ -19,6 +19,7 @@
 "./module.psutil._pssunos.o"
 "./module.psutil._pswindows.o"
 "./module.psutil.o"
+"./module.setting.o"
 "./module.worker.o"
 "./module.worker.clean_memory.o"
 "./module.worker.tracking_memory.o"

@@ -1,7 +1,7 @@
 AS=as
 CC="C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe" "C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe"
 CCACHE_DIR=C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
-CCACHE_LOGFILE=D:\Projects\Memfy\memfy.build\ccache-34520.txt
+CCACHE_LOGFILE=D:\Projects\Memfy\memfy.build\ccache-40300.txt
 CCCOM=$CC -o $TARGET -c $CFLAGS $CCFLAGS $_CCCOMCOM $SOURCES
 CFILESUFFIX=.c
 CPPDEFINES=['_WIN32_WINNT=0x0501', '_NUITKA_STANDALONE', '_NUITKA_WINMAIN_ENTRY_POINT', '__NUITKA_NO_ASSERT__', '_NUITKA_CONSTANTS_FROM_RESOURCE', '_NUITKA_FROZEN=165', '_NUITKA_EXE']

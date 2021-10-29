@@ -1,4 +1,5 @@
 import sys
+import time
 import traceback
 from PyQt5 import QtGui, QtWidgets
 from PyQt5.QtWidgets import *
@@ -9,6 +10,7 @@ import base64
 import os
 import config
 import memory
+import setting
 from worker.window_show import window_show
 from worker.clean_memory import clean_memory
 from worker.tracking_memory import tracking_memory
@@ -18,6 +20,7 @@ from collections import deque
 from ctypes import *
 import winreg
 import json
+import ctypes
 
 # D:\Projects\Memfy\venv\Scripts\python.exe -m nuitka --mingw64 --standalone --windows-disable-console --plugin-enable=pyqt5 memfy.py
 
@@ -75,6 +78,7 @@ class MainWindow(QWidget):
         self.thread__clean_memory.callback.connect(self.clean_memory)
 
     def showEvent(self, evt):
+        self.show()
         self.thread__window_show.start()
         memory.clear_pid(os.getpid())
 
@@ -277,7 +281,7 @@ class MyNavigationBar(QWidget):
         self.btn_clean.setObjectName('transparent_background')
         self.btn_clean.setFont(fontFontAwesome)
         self.btn_clean.setText('\uf51a')
-        self.btn_clean.setStyleSheet("""font-size: 11pt;transform: scaleX(-1);""")
+        self.btn_clean.setStyleSheet("""font-size: 11pt;""")
         self.btn_clean.clicked.connect(self.parent.btn_clean_clicked)
         self.btn_clean.setFixedSize(30, 30)
 
@@ -424,15 +428,10 @@ class MyPageGeneral(QWidget):
 
         widget.setGeometry(18, 156, widget.width(), widget.height())
 
-    # self.widget.setFixedWidth(self.parent.width() - 52)
-    # self.widget.setFixedHeight(self.height())
-
     def showEvent(self, evt):
-        # self.timer.start()
         self.is_visible = True
 
     def hideEvent(self, evt):
-        # self.timer.stop()
         self.is_visible = False
 
     def refresh_stats(self, usage):
@@ -456,6 +455,49 @@ class MyPageSetting(QWidget):
         super(MyPageSetting, self).__init__()
         self.parent = parent
 
+        self.b1 = QCheckBox(self)
+        self.b1.setText("Clean every (min):")
+        self.b1.setChecked(setting.CLEAN_EVERY_MIN__ENABLE)
+        self.b1.stateChanged.connect(self.clean_when_every__enable)
+        self.b1.setGeometry(10,5,200,26)
+
+        self.i1 = QSpinBox(self)
+        self.i1.setRange(0, 600)
+        self.i1.setValue(setting.CLEAN_EVERY_MIN__VALUE)
+        self.i1.setGeometry(10,33,68,26)
+        self.i1.setEnabled(setting.CLEAN_EVERY_MIN__ENABLE)
+        self.i1.valueChanged.connect(self.clean_every__value)
+
+        self.b2 = QCheckBox(self)
+        self.b2.setText("Clean when above (%):")
+        self.b2.setChecked(setting.CLEAN_WHEN_ABOVE__ENABLE)
+        self.b2.stateChanged.connect(self.clean_when_above__enable)
+        self.b2.setGeometry(10,70,200,26)
+
+        self.i2 = QSpinBox(self)
+        self.i2.setRange(0, 600)
+        self.i2.setValue(setting.CLEAN_WHEN_ABOVE__VALUE)
+        self.i2.setGeometry(10,98,68,26)
+        self.i2.setEnabled(setting.CLEAN_WHEN_ABOVE__ENABLE)
+        self.i2.valueChanged.connect(self.clean_when_above__value)
+
+        # self.i1.setChecked(setting.CLEAN_WHEN_ABOVE__ENABLE)
+        # self.i1.stateChanged.connect(self.clean_when_above__enable)
+
+    def clean_when_every__enable(self):
+        setting.set('CLEAN_EVERY_MIN__ENABLE', bool, self.b1.isChecked())
+        self.i1.setEnabled(self.b1.isChecked())
+
+    def clean_when_above__enable(self):
+        setting.set('CLEAN_WHEN_ABOVE__ENABLE', bool, self.b2.isChecked())
+        self.i2.setEnabled(self.b2.isChecked())
+
+    def clean_every__value(self):
+        setting.set('CLEAN_EVERY_MIN__VALUE', int, int(self.i1.value()))
+
+    def clean_when_above__value(self):
+        setting.set('CLEAN_WHEN_ABOVE__VALUE', int, int(self.i2.value()))
+
 
 class MyPageInfo(QWidget):
 
@@ -463,7 +505,7 @@ class MyPageInfo(QWidget):
         super(MyPageInfo, self).__init__()
         self.parent = parent
 
-        self.setFixedHeight(self.parent.widget.height()-7)
+        self.setFixedHeight(self.parent.widget.height() - 7)
         self.setFixedWidth(self.parent.widget.width() - 7)
 
         self.layout = QVBoxLayout(self)
@@ -492,7 +534,7 @@ class MyPageInfo(QWidget):
         widget_social1.setFixedWidth(90)
 
         widget_social_layout1 = QHBoxLayout(widget_social1)
-        widget_social_layout1.setContentsMargins(0,0,0,0)
+        widget_social_layout1.setContentsMargins(0, 0, 0, 0)
         widget_social_layout1.setSpacing(10)
 
         self.btn_github = QPushButton()
@@ -521,7 +563,7 @@ class MyPageInfo(QWidget):
         self.layout.addWidget(self.m)
         self.layout.addWidget(self.m1)
         self.layout.addWidget(self.mm)
-        self.layout.addWidget( widget_social)
+        self.layout.addWidget(widget_social)
 
     def btn_github_clicked(self):
         try:
@@ -588,6 +630,18 @@ class SystemTrayIcon(QtWidgets.QSystemTrayIcon):
 
 
 Stylesheet = """
+QSpinBox{ 
+    font: 12px;
+}
+QCheckBox {
+    color: #FFFFFF;
+    border-style: outset;
+    padding: 2px;
+    font: 12px;
+    border-radius: 8px;
+    border-color: #2752B8;
+    cursor: pointer;
+}
 QLabel {
     color: #FFFFFF;
 }
@@ -637,6 +691,13 @@ QPushButton#transparent_background:pressed {
 """
 
 if __name__ == '__main__':
+    hwnd = ctypes.windll.user32.FindWindowExW(0, 0, 'Qt5152QWindowIcon', 'Memfy')
+    if hwnd:
+        ctypes.windll.user32.ShowWindow(hwnd, 6)
+        time.sleep(0.1)
+        ctypes.windll.user32.ShowWindow(hwnd, 9)
+        sys.exit(0)
+
     app = QApplication(sys.argv)
 
     pixmap = QtGui.QPixmap()
@@ -669,6 +730,8 @@ if __name__ == '__main__':
 
     trayIcon = SystemTrayIcon(icon, widget)
     trayIcon.show()
+
+    # setting.set('WINDOW_HANDLE', int(widget.winId()))
 
     if not '--hide' in sys.argv:
         widget.show()
