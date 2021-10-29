@@ -29,6 +29,7 @@ extern PyObject *modulecode___main__(PyObject *, struct Nuitka_MetaPathBasedLoad
 extern PyObject *modulecode_api(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_config(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_hardware(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_memory(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_psutil(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_psutil$_common(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_psutil$_compat(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
@@ -40,6 +41,8 @@ extern PyObject *modulecode_psutil$_psposix(PyObject *, struct Nuitka_MetaPathBa
 extern PyObject *modulecode_psutil$_pssunos(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_psutil$_pswindows(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_worker(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_worker$clean_memory(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
+extern PyObject *modulecode_worker$tracking_memory(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 extern PyObject *modulecode_worker$window_show(PyObject *, struct Nuitka_MetaPathBasedLoaderEntry const *);
 
 static struct Nuitka_MetaPathBasedLoaderEntry meta_path_loader_entries[] = {
@@ -70,6 +73,7 @@ static struct Nuitka_MetaPathBasedLoaderEntry meta_path_loader_entries[] = {
     {"api", modulecode_api, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"config", modulecode_config, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"hardware", modulecode_hardware, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"memory", modulecode_memory, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"psutil", modulecode_psutil, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
     {"psutil._common", modulecode_psutil$_common, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"psutil._compat", modulecode_psutil$_compat, 0, 0, NUITKA_TRANSLATED_FLAG},
@@ -85,6 +89,8 @@ static struct Nuitka_MetaPathBasedLoaderEntry meta_path_loader_entries[] = {
     {"select", NULL, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_SHLIB_FLAG},
     {"unicodedata", NULL, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_SHLIB_FLAG},
     {"worker", modulecode_worker, 0, 0, NUITKA_TRANSLATED_FLAG | NUITKA_PACKAGE_FLAG},
+    {"worker.clean_memory", modulecode_worker$clean_memory, 0, 0, NUITKA_TRANSLATED_FLAG},
+    {"worker.tracking_memory", modulecode_worker$tracking_memory, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"worker.window_show", modulecode_worker$window_show, 0, 0, NUITKA_TRANSLATED_FLAG},
     {"__future__", NULL, 0, 4123, NUITKA_TRANSLATED_FLAG | NUITKA_BYTECODE_FLAG},
     {"_bootlocale", NULL, 1, 1208, NUITKA_TRANSLATED_FLAG | NUITKA_BYTECODE_FLAG},

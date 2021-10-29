@@ -1,0 +1,11 @@
+CLEAN_EVERY_MIN__ENABLE = False
+CLEAN_EVERY_MIN__VALUE = 120
+
+CLEAN_WHEN_ABOVE__ENABLE = True
+CLEAN_WHEN_ABOVE__VALUE = 90
+
+def load():
+    pass
+
+def set():
+    pass

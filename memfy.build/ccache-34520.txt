@@ -1,0 +1,1496 @@
+[2021-10-28T16:31:11.288098 5440 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) base_dir = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) compiler = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) compression = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) debug = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) disable = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) hard_link = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.288098 5440 ] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) max_files = 0
+[2021-10-28T16:31:11.288098 5440 ] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) path = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) read_only = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) recache = false
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) stats = true
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.288098 5440 ] Config: (default) umask = 
+[2021-10-28T16:31:11.289104 5440 ] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o __constants.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src __constants.c
+[2021-10-28T16:31:11.291099 5440 ] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.291099 5440 ] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.291099 5440 ] Source file: __constants.c
+[2021-10-28T16:31:11.291099 5440 ] Object file: __constants.o
+[2021-10-28T16:31:11.291099 5440 ] Trying direct lookup
+[2021-10-28T16:31:11.292096 5440 ] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/7/dca0b70a8db51d1821a87ad5bef12a-5275.manifest
+[2021-10-28T16:31:11.323253 15916] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.323253 15916] Config: (default) base_dir = 
+[2021-10-28T16:31:11.323253 15916] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.323253 15916] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.323253 15916] Config: (default) compiler = 
+[2021-10-28T16:31:11.323253 15916] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.323253 15916] Config: (default) compression = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.323253 15916] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.323253 15916] Config: (default) debug = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.323253 15916] Config: (default) disable = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.323253 15916] Config: (default) hard_link = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.323253 15916] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.323253 15916] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.323253 15916] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.323253 15916] Config: (default) max_files = 0
+[2021-10-28T16:31:11.323253 15916] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.323253 15916] Config: (default) path = 
+[2021-10-28T16:31:11.323253 15916] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.323253 15916] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.323253 15916] Config: (default) read_only = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) recache = false
+[2021-10-28T16:31:11.323253 15916] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.323253 15916] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.323253 15916] Config: (default) stats = true
+[2021-10-28T16:31:11.323253 15916] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.323253 15916] Config: (default) umask = 
+[2021-10-28T16:31:11.324253 15916] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o __helpers.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src __helpers.c
+[2021-10-28T16:31:11.324253 15916] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.324253 15916] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.324253 15916] Source file: __helpers.c
+[2021-10-28T16:31:11.324253 15916] Object file: __helpers.o
+[2021-10-28T16:31:11.324253 15916] Trying direct lookup
+[2021-10-28T16:31:11.325253 15916] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/2/d55ea015a8827676a8d7c808f8b349-14341.manifest
+[2021-10-28T16:31:11.359074 25092] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.359074 25092] Config: (default) base_dir = 
+[2021-10-28T16:31:11.359074 25092] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.359074 25092] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.359074 25092] Config: (default) compiler = 
+[2021-10-28T16:31:11.359074 25092] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.359074 25092] Config: (default) compression = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.359074 25092] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.359074 25092] Config: (default) debug = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.359074 25092] Config: (default) disable = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.359074 25092] Config: (default) hard_link = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.359074 25092] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.359074 25092] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.359074 25092] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.359074 25092] Config: (default) max_files = 0
+[2021-10-28T16:31:11.359074 25092] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.359074 25092] Config: (default) path = 
+[2021-10-28T16:31:11.359074 25092] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.359074 25092] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.359074 25092] Config: (default) read_only = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) recache = false
+[2021-10-28T16:31:11.359074 25092] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.359074 25092] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.359074 25092] Config: (default) stats = true
+[2021-10-28T16:31:11.359074 25092] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.359074 25092] Config: (default) umask = 
+[2021-10-28T16:31:11.359074 25092] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o __loader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src __loader.c
+[2021-10-28T16:31:11.359074 25092] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.360073 25092] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.360073 25092] Source file: __loader.c
+[2021-10-28T16:31:11.360073 25092] Object file: __loader.o
+[2021-10-28T16:31:11.360073 25092] Trying direct lookup
+[2021-10-28T16:31:11.360073 25092] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/3/ca0174f381922fa1881da3d2b8361c-69341.manifest
+[2021-10-28T16:31:11.362077 5440 ] Got object file hash from manifest
+[2021-10-28T16:31:11.363071 5440 ] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/0/179e2d20efdcdacb5201eedc3a179d-1349994.o to __constants.o (uncompressed)
+[2021-10-28T16:31:11.363071 5440 ] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/0/179e2d20efdcdacb5201eedc3a179d-1349994.o -> __constants.o
+[2021-10-28T16:31:11.363071 5440 ] Succeeded getting cached result
+[2021-10-28T16:31:11.363071 5440 ] Result: cache hit (direct)
+[2021-10-28T16:31:11.364075 5440 ] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-10-28T16:31:11.366075 5440 ] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-10-28T16:31:11.394072 25092] Got object file hash from manifest
+[2021-10-28T16:31:11.394072 25092] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/b/c682aebbf0047f16efa7ef52753541-481775.o to __loader.o (uncompressed)
+[2021-10-28T16:31:11.395071 25092] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/b/c682aebbf0047f16efa7ef52753541-481775.o -> __loader.o
+[2021-10-28T16:31:11.395071 25092] Succeeded getting cached result
+[2021-10-28T16:31:11.395071 25092] Result: cache hit (direct)
+[2021-10-28T16:31:11.396085 25092] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2021-10-28T16:31:11.398095 25092] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2021-10-28T16:31:11.402085 15916] Got object file hash from manifest
+[2021-10-28T16:31:11.402085 7392 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.403082 15916] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/0/6a2f670cb684fc44463cc4b3b7f629-1358920.o to __helpers.o (uncompressed)
+ka\Cache\ccache
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) compiler = 
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) compression = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) debug = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) disable = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) hard_link = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.402085 7392 ] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) max_files = 0
+[2021-10-28T16:31:11.402085 7392 ] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) path = 
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) read_only = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) recache = false
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) stats = true
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.402085 7392 ] Config: (default) umask = 
+[2021-10-28T16:31:11.402085 7392 ] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.PyQt5-preLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.PyQt5-preLoad.c
+[2021-10-28T16:31:11.403082 7392 ] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.403082 7392 ] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.403082 15916] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/0/6a2f670cb684fc44463cc4b3b7f629-1358920.o -> __helpers.o
+[2021-10-28T16:31:11.403082 7392 ] Source file: module.PyQt5-preLoad.c
+[2021-10-28T16:31:11.403082 7392 ] Object file: module.PyQt5-preLoad.o
+[2021-10-28T16:31:11.403082 15916] Succeeded getting cached result
+[2021-10-28T16:31:11.403082 7392 ] Trying direct lookup
+[2021-10-28T16:31:11.403082 15916] Result: cache hit (direct)
+[2021-10-28T16:31:11.404078 7392 ] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/5/0f77bf4680c18f9640fab506c896b4-27347.manifest
+[2021-10-28T16:31:11.404078 15916] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-10-28T16:31:11.406070 15916] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-10-28T16:31:11.443069 28160] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.443069 28160] Config: (default) base_dir = 
+[2021-10-28T16:31:11.443069 28160] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.443069 28160] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.443069 28160] Config: (default) compiler = 
+[2021-10-28T16:31:11.443069 28160] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.443069 28160] Config: (default) compression = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.443069 28160] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.443069 28160] Config: (default) debug = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.443069 28160] Config: (default) disable = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.443069 28160] Config: (default) hard_link = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.443069 28160] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.443069 28160] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.443069 28160] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.443069 28160] Config: (default) max_files = 0
+[2021-10-28T16:31:11.443069 28160] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.443069 28160] Config: (default) path = 
+[2021-10-28T16:31:11.443069 28160] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.443069 28160] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.443069 28160] Config: (default) read_only = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) recache = false
+[2021-10-28T16:31:11.443069 28160] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.443069 28160] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.443069 28160] Config: (default) stats = true
+[2021-10-28T16:31:11.443069 28160] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.443069 28160] Config: (default) umask = 
+[2021-10-28T16:31:11.443069 28160] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.PyQt5.QtCore-postLoad.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.PyQt5.QtCore-postLoad.c
+[2021-10-28T16:31:11.443069 28160] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.443069 28160] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.444069 28160] Source file: module.PyQt5.QtCore-postLoad.c
+[2021-10-28T16:31:11.444069 28160] Object file: module.PyQt5.QtCore-postLoad.o
+[2021-10-28T16:31:11.444069 28160] Trying direct lookup
+[2021-10-28T16:31:11.444069 28160] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/e/0b8be6e7b5b7316c198bdf44fdb542-35637.manifest
+[2021-10-28T16:31:11.474071 7392 ] Got object file hash from manifest
+[2021-10-28T16:31:11.475074 7392 ] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/1/eecafd64bb9bb7c0f64e1f03ad8b4c-1364088.o to module.PyQt5-preLoad.o (uncompressed)
+[2021-10-28T16:31:11.476082 7392 ] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/1/eecafd64bb9bb7c0f64e1f03ad8b4c-1364088.o -> module.PyQt5-preLoad.o
+[2021-10-28T16:31:11.476082 7392 ] Succeeded getting cached result
+[2021-10-28T16:31:11.476082 7392 ] Result: cache hit (direct)
+[2021-10-28T16:31:11.477071 7392 ] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-10-28T16:31:11.479071 7392 ] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-10-28T16:31:11.492071 25172] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.492071 25172] Config: (default) base_dir = 
+[2021-10-28T16:31:11.492071 25172] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.492071 25172] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.492071 25172] Config: (default) compiler = 
+[2021-10-28T16:31:11.492071 25172] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.492071 25172] Config: (default) compression = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.492071 25172] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.492071 25172] Config: (default) debug = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.492071 25172] Config: (default) disable = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.492071 25172] Config: (default) hard_link = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.492071 25172] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.492071 25172] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.492071 25172] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.492071 25172] Config: (default) max_files = 0
+[2021-10-28T16:31:11.492071 25172] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.492071 25172] Config: (default) path = 
+[2021-10-28T16:31:11.492071 25172] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.492071 25172] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.492071 25172] Config: (default) read_only = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) recache = false
+[2021-10-28T16:31:11.492071 25172] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.492071 25172] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.492071 25172] Config: (default) stats = true
+[2021-10-28T16:31:11.492071 25172] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.492071 25172] Config: (default) umask = 
+[2021-10-28T16:31:11.492071 25172] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.PyQt5.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.PyQt5.c
+[2021-10-28T16:31:11.492071 25172] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.492071 25172] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.493071 25172] Source file: module.PyQt5.c
+[2021-10-28T16:31:11.493071 25172] Object file: module.PyQt5.o
+[2021-10-28T16:31:11.493071 25172] Trying direct lookup
+[2021-10-28T16:31:11.493071 25172] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/7/a38901216eed331d59fff778794bc3-68124.manifest
+[2021-10-28T16:31:11.511070 28160] Got object file hash from manifest
+[2021-10-28T16:31:11.511070 28160] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/526979be9ceea0e4d9edd6db5426da-1374282.o to module.PyQt5.QtCore-postLoad.o (uncompressed)
+[2021-10-28T16:31:11.511070 28160] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/9/526979be9ceea0e4d9edd6db5426da-1374282.o -> module.PyQt5.QtCore-postLoad.o
+[2021-10-28T16:31:11.512069 28160] Succeeded getting cached result
+[2021-10-28T16:31:11.512069 28160] Result: cache hit (direct)
+[2021-10-28T16:31:11.512069 28160] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-10-28T16:31:11.514071 28160] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-10-28T16:31:11.557069 25172] Got object file hash from manifest
+[2021-10-28T16:31:11.558073 25172] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/475ab2ee39ee6b82cbdf87853e62ce-1405673.o to module.PyQt5.o (uncompressed)
+[2021-10-28T16:31:11.558073 25172] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/475ab2ee39ee6b82cbdf87853e62ce-1405673.o -> module.PyQt5.o
+[2021-10-28T16:31:11.559071 25172] Succeeded getting cached result
+[2021-10-28T16:31:11.559071 25172] Result: cache hit (direct)
+[2021-10-28T16:31:11.559071 25172] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-10-28T16:31:11.560070 29724] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.560070 29724] Config: (default) base_dir = 
+[2021-10-28T16:31:11.560070 29724] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.560070 29724] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.560070 29724] Config: (default) compiler = 
+[2021-10-28T16:31:11.560070 29724] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.560070 29724] Config: (default) compression = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.560070 29724] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.560070 29724] Config: (default) debug = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.560070 29724] Config: (default) disable = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.560070 29724] Config: (default) hard_link = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.560070 29724] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.560070 29724] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.560070 29724] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.560070 29724] Config: (default) max_files = 0
+[2021-10-28T16:31:11.560070 29724] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.560070 29724] Config: (default) path = 
+[2021-10-28T16:31:11.560070 29724] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.560070 29724] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.560070 29724] Config: (default) read_only = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) recache = false
+[2021-10-28T16:31:11.560070 29724] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.560070 29724] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.560070 29724] Config: (default) stats = true
+[2021-10-28T16:31:11.560070 29724] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.560070 29724] Config: (default) umask = 
+[2021-10-28T16:31:11.560070 29724] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.__main__.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.__main__.c
+[2021-10-28T16:31:11.560070 29724] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.560070 29724] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.561071 29724] Source file: module.__main__.c
+[2021-10-28T16:31:11.561071 29724] Object file: module.__main__.o
+[2021-10-28T16:31:11.561071 29724] Trying direct lookup
+[2021-10-28T16:31:11.561071 25172] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-10-28T16:31:11.564070 29724] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/1/9981558a01416a0ab6e059a30b578a-1276323.manifest
+[2021-10-28T16:31:11.565069 29724] No such manifest file
+[2021-10-28T16:31:11.565069 29724] Did not find object file hash in manifest
+[2021-10-28T16:31:11.565069 29724] Running preprocessor
+[2021-10-28T16:31:11.594071 21084] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.594071 21084] Config: (default) base_dir = 
+[2021-10-28T16:31:11.594071 21084] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.594071 21084] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.594071 21084] Config: (default) compiler = 
+[2021-10-28T16:31:11.594071 21084] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.594071 21084] Config: (default) compression = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.594071 21084] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.594071 21084] Config: (default) debug = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.594071 21084] Config: (default) disable = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.594071 21084] Config: (default) hard_link = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.594071 21084] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.594071 21084] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.594071 21084] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.594071 21084] Config: (default) max_files = 0
+[2021-10-28T16:31:11.594071 21084] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.594071 21084] Config: (default) path = 
+[2021-10-28T16:31:11.594071 21084] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.594071 21084] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.594071 21084] Config: (default) read_only = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) recache = false
+[2021-10-28T16:31:11.594071 21084] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.594071 21084] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.594071 21084] Config: (default) stats = true
+[2021-10-28T16:31:11.594071 21084] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.594071 21084] Config: (default) umask = 
+[2021-10-28T16:31:11.595070 21084] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.api.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.api.c
+[2021-10-28T16:31:11.595070 21084] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.595070 21084] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.595070 21084] Source file: module.api.c
+[2021-10-28T16:31:11.595070 21084] Object file: module.api.o
+[2021-10-28T16:31:11.595070 21084] Trying direct lookup
+[2021-10-28T16:31:11.596071 21084] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/6/9e1ba6bbf47dd6fc8bb3e6b6cd4094-109418.manifest
+[2021-10-28T16:31:11.646070 33160] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.646070 33160] Config: (default) base_dir = 
+[2021-10-28T16:31:11.646070 33160] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.646070 33160] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.646070 33160] Config: (default) compiler = 
+[2021-10-28T16:31:11.646070 33160] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.646070 33160] Config: (default) compression = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.646070 33160] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.646070 33160] Config: (default) debug = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.646070 33160] Config: (default) disable = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.646070 33160] Config: (default) hard_link = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.646070 33160] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.646070 33160] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.646070 33160] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.646070 33160] Config: (default) max_files = 0
+[2021-10-28T16:31:11.646070 33160] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.646070 33160] Config: (default) path = 
+[2021-10-28T16:31:11.646070 33160] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.646070 33160] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.646070 33160] Config: (default) read_only = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) recache = false
+[2021-10-28T16:31:11.646070 33160] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.646070 33160] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.646070 33160] Config: (default) stats = true
+[2021-10-28T16:31:11.646070 33160] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.646070 33160] Config: (default) umask = 
+[2021-10-28T16:31:11.647069 33160] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.config.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.config.c
+[2021-10-28T16:31:11.647069 33160] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.647069 33160] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.647069 33160] Source file: module.config.c
+[2021-10-28T16:31:11.647069 33160] Object file: module.config.o
+[2021-10-28T16:31:11.648071 33160] Trying direct lookup
+[2021-10-28T16:31:11.648071 33160] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/4/b3792614a0329daa816a1df7fe6821-45896.manifest
+[2021-10-28T16:31:11.667071 21084] Got object file hash from manifest
+[2021-10-28T16:31:11.667071 21084] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/1/170dee3706a487b8f2a17aa9f93759-1442863.o to module.api.o (uncompressed)
+[2021-10-28T16:31:11.668071 21084] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/1/170dee3706a487b8f2a17aa9f93759-1442863.o -> module.api.o
+[2021-10-28T16:31:11.668071 21084] Succeeded getting cached result
+[2021-10-28T16:31:11.668071 21084] Result: cache hit (direct)
+[2021-10-28T16:31:11.668071 21084] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-10-28T16:31:11.671072 21084] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/stats.lock
+[2021-10-28T16:31:11.687071 33352] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.687071 33352] Config: (default) base_dir = 
+[2021-10-28T16:31:11.687071 33352] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.687071 33352] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.687071 33352] Config: (default) compiler = 
+[2021-10-28T16:31:11.687071 33352] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.687071 33352] Config: (default) compression = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.687071 33352] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.687071 33352] Config: (default) debug = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.687071 33352] Config: (default) disable = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.687071 33352] Config: (default) hard_link = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.687071 33352] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.687071 33352] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.687071 33352] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.687071 33352] Config: (default) max_files = 0
+[2021-10-28T16:31:11.687071 33352] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.687071 33352] Config: (default) path = 
+[2021-10-28T16:31:11.687071 33352] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.687071 33352] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.687071 33352] Config: (default) read_only = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) recache = false
+[2021-10-28T16:31:11.687071 33352] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.687071 33352] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.687071 33352] Config: (default) stats = true
+[2021-10-28T16:31:11.687071 33352] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.687071 33352] Config: (default) umask = 
+[2021-10-28T16:31:11.688070 33352] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.hardware.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.hardware.c
+[2021-10-28T16:31:11.688070 33352] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.688070 33352] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.689074 33352] Source file: module.hardware.c
+[2021-10-28T16:31:11.689074 33352] Object file: module.hardware.o
+[2021-10-28T16:31:11.689074 33352] Trying direct lookup
+[2021-10-28T16:31:11.690072 33352] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/8/e17e188ed7f4f25a498f4ccb91bf7a-127548.manifest
+[2021-10-28T16:31:11.723070 32096] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.723070 32096] Config: (default) base_dir = 
+[2021-10-28T16:31:11.723070 32096] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.723070 32096] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.723070 32096] Config: (default) compiler = 
+[2021-10-28T16:31:11.723070 32096] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.723070 32096] Config: (default) compression = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.723070 32096] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.723070 32096] Config: (default) debug = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.723070 32096] Config: (default) disable = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.723070 32096] Config: (default) hard_link = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.723070 32096] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.723070 32096] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.723070 32096] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.723070 32096] Config: (default) max_files = 0
+[2021-10-28T16:31:11.723070 32096] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.723070 32096] Config: (default) path = 
+[2021-10-28T16:31:11.723070 32096] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.723070 32096] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.723070 32096] Config: (default) read_only = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) recache = false
+[2021-10-28T16:31:11.723070 32096] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.723070 32096] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.723070 32096] Config: (default) stats = true
+[2021-10-28T16:31:11.723070 32096] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.723070 32096] Config: (default) umask = 
+[2021-10-28T16:31:11.724069 32096] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.memory.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.memory.c
+[2021-10-28T16:31:11.724069 32096] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.724069 32096] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.724069 32096] Source file: module.memory.c
+[2021-10-28T16:31:11.724069 32096] Object file: module.memory.o
+[2021-10-28T16:31:11.725069 32096] Trying direct lookup
+[2021-10-28T16:31:11.725069 32096] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/6/ebb6fc64c27db4b1549ed0247b9464-66914.manifest
+[2021-10-28T16:31:11.729071 33160] Got object file hash from manifest
+[2021-10-28T16:31:11.730078 33160] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/2/afc86942c9a272c2717012a5722eb1-1383922.o to module.config.o (uncompressed)
+[2021-10-28T16:31:11.730078 33160] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/2/afc86942c9a272c2717012a5722eb1-1383922.o -> module.config.o
+[2021-10-28T16:31:11.731072 33160] Succeeded getting cached result
+[2021-10-28T16:31:11.731072 33160] Result: cache hit (direct)
+[2021-10-28T16:31:11.731072 33160] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-10-28T16:31:11.733070 33160] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-10-28T16:31:11.765069 33352] Got object file hash from manifest
+[2021-10-28T16:31:11.766070 33352] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/9/5ffcf45c09b80a129cecf9e7dac4d4-1464309.o to module.hardware.o (uncompressed)
+[2021-10-28T16:31:11.766070 33352] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/9/5ffcf45c09b80a129cecf9e7dac4d4-1464309.o -> module.hardware.o
+[2021-10-28T16:31:11.766070 33352] Succeeded getting cached result
+[2021-10-28T16:31:11.766070 33352] Result: cache hit (direct)
+[2021-10-28T16:31:11.767071 33352] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-10-28T16:31:11.769073 33352] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-10-28T16:31:11.792071 13920] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.792071 13920] Config: (default) base_dir = 
+[2021-10-28T16:31:11.792071 13920] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.792071 13920] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.792071 13920] Config: (default) compiler = 
+[2021-10-28T16:31:11.792071 13920] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.792071 13920] Config: (default) compression = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.792071 13920] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.792071 13920] Config: (default) debug = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.792071 13920] Config: (default) disable = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.792071 13920] Config: (default) hard_link = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.792071 13920] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.792071 13920] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.792071 13920] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.792071 13920] Config: (default) max_files = 0
+[2021-10-28T16:31:11.792071 13920] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.792071 13920] Config: (default) path = 
+[2021-10-28T16:31:11.792071 13920] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.792071 13920] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.792071 13920] Config: (default) read_only = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) recache = false
+[2021-10-28T16:31:11.792071 13920] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.792071 13920] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.792071 13920] Config: (default) stats = true
+[2021-10-28T16:31:11.792071 13920] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.792071 13920] Config: (default) umask = 
+[2021-10-28T16:31:11.793070 13920] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil._common.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil._common.c
+[2021-10-28T16:31:11.793070 13920] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.793070 13920] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.793070 13920] Source file: module.psutil._common.c
+[2021-10-28T16:31:11.793070 13920] Object file: module.psutil._common.o
+[2021-10-28T16:31:11.793070 13920] Trying direct lookup
+[2021-10-28T16:31:11.797070 13920] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/f/cfd397211b89e574c9a9a2419a8fb4-1148729.manifest
+[2021-10-28T16:31:11.798076 32096] Got object file hash from manifest
+[2021-10-28T16:31:11.798076 32096] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/c/5b15e254ec666a30878e3cfab5775d-1401465.o to module.memory.o (uncompressed)
+[2021-10-28T16:31:11.799071 32096] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/c/5b15e254ec666a30878e3cfab5775d-1401465.o -> module.memory.o
+[2021-10-28T16:31:11.799071 32096] Succeeded getting cached result
+[2021-10-28T16:31:11.799071 32096] Result: cache hit (direct)
+[2021-10-28T16:31:11.799071 32096] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-10-28T16:31:11.801071 32096] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-10-28T16:31:11.848070 24268] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.848070 24268] Config: (default) base_dir = 
+[2021-10-28T16:31:11.848070 24268] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.848070 24268] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.848070 24268] Config: (default) compiler = 
+[2021-10-28T16:31:11.848070 24268] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.848070 24268] Config: (default) compression = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.848070 24268] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.848070 24268] Config: (default) debug = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.848070 24268] Config: (default) disable = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.848070 24268] Config: (default) hard_link = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.848070 24268] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.848070 24268] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.848070 24268] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.848070 24268] Config: (default) max_files = 0
+[2021-10-28T16:31:11.848070 24268] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.848070 24268] Config: (default) path = 
+[2021-10-28T16:31:11.848070 24268] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.848070 24268] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.848070 24268] Config: (default) read_only = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) recache = false
+[2021-10-28T16:31:11.848070 24268] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.848070 24268] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.848070 24268] Config: (default) stats = true
+[2021-10-28T16:31:11.848070 24268] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.848070 24268] Config: (default) umask = 
+[2021-10-28T16:31:11.849071 24268] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil._compat.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil._compat.c
+[2021-10-28T16:31:11.849071 24268] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.849071 24268] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.849071 24268] Source file: module.psutil._compat.c
+[2021-10-28T16:31:11.849071 24268] Object file: module.psutil._compat.o
+[2021-10-28T16:31:11.850070 24268] Trying direct lookup
+[2021-10-28T16:31:11.852069 24268] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/a/0362857aaacaefb5e8a36d29c83c3a-797405.manifest
+[2021-10-28T16:31:11.869070 13920] Got object file hash from manifest
+[2021-10-28T16:31:11.869103 13920] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/0b74609afb0d74b15d5bba9e5585a5-2492360.o to module.psutil._common.o (uncompressed)
+[2021-10-28T16:31:11.870072 13920] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/0/0b74609afb0d74b15d5bba9e5585a5-2492360.o -> module.psutil._common.o
+[2021-10-28T16:31:11.870072 13920] Succeeded getting cached result
+[2021-10-28T16:31:11.870072 13920] Result: cache hit (direct)
+[2021-10-28T16:31:11.871072 13920] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-10-28T16:31:11.873071 13920] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-10-28T16:31:11.917071 9964 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) base_dir = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) compiler = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) compression = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) compression_level = 6
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) cpp_extension = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) debug = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) depend_mode = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) direct_mode = true
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) disable = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) hard_link = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) hash_dir = true
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:11.917071 9964 ] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) max_files = 0
+[2021-10-28T16:31:11.917071 9964 ] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) path = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) prefix_command = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) read_only = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) read_only_direct = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) recache = false
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) sloppiness = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) stats = true
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) temporary_dir = 
+[2021-10-28T16:31:11.917071 9964 ] Config: (default) umask = 
+[2021-10-28T16:31:11.918072 9964 ] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil._psaix.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil._psaix.c
+[2021-10-28T16:31:11.918072 9964 ] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:11.918072 9964 ] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:11.918072 9964 ] Source file: module.psutil._psaix.c
+[2021-10-28T16:31:11.918072 9964 ] Object file: module.psutil._psaix.o
+[2021-10-28T16:31:11.918072 9964 ] Trying direct lookup
+[2021-10-28T16:31:11.922070 9964 ] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/8/deeec990bff0b0283d1670c0d61cad-1110339.manifest
+[2021-10-28T16:31:11.924070 24268] Got object file hash from manifest
+[2021-10-28T16:31:11.925070 24268] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/e/1d3ba7d16d69ae41635276c9769d84-2141839.o to module.psutil._compat.o (uncompressed)
+[2021-10-28T16:31:11.925070 24268] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/e/1d3ba7d16d69ae41635276c9769d84-2141839.o -> module.psutil._compat.o
+[2021-10-28T16:31:11.926069 24268] Succeeded getting cached result
+[2021-10-28T16:31:11.926069 24268] Result: cache hit (direct)
+[2021-10-28T16:31:11.926069 24268] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-10-28T16:31:11.929073 24268] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/stats.lock
+[2021-10-28T16:31:11.990070 9964 ] Got object file hash from manifest
+[2021-10-28T16:31:11.991070 9964 ] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/510507a0ba3074fcac0eea2cbc58ce-2437927.o to module.psutil._psaix.o (uncompressed)
+[2021-10-28T16:31:11.991070 9964 ] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/8/510507a0ba3074fcac0eea2cbc58ce-2437927.o -> module.psutil._psaix.o
+[2021-10-28T16:31:11.992071 9964 ] Succeeded getting cached result
+[2021-10-28T16:31:11.992071 9964 ] Result: cache hit (direct)
+[2021-10-28T16:31:11.993075 9964 ] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-10-28T16:31:11.995071 9964 ] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-10-28T16:31:12.002070 33272] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.002070 33272] Config: (default) base_dir = 
+[2021-10-28T16:31:12.002070 33272] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.002070 33272] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.002070 33272] Config: (default) compiler = 
+[2021-10-28T16:31:12.002070 33272] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.002070 33272] Config: (default) compression = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.002070 33272] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.002070 33272] Config: (default) debug = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.002070 33272] Config: (default) disable = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.002070 33272] Config: (default) hard_link = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.002070 33272] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.002070 33272] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.002070 33272] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.002070 33272] Config: (default) max_files = 0
+[2021-10-28T16:31:12.002070 33272] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.002070 33272] Config: (default) path = 
+[2021-10-28T16:31:12.002070 33272] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.002070 33272] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.002070 33272] Config: (default) read_only = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) recache = false
+[2021-10-28T16:31:12.002070 33272] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.002070 33272] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.002070 33272] Config: (default) stats = true
+[2021-10-28T16:31:12.002070 33272] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.002070 33272] Config: (default) umask = 
+[2021-10-28T16:31:12.003073 33272] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil._psbsd.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil._psbsd.c
+[2021-10-28T16:31:12.003073 33272] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.003073 33272] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.003073 33272] Source file: module.psutil._psbsd.c
+[2021-10-28T16:31:12.003073 33272] Object file: module.psutil._psbsd.o
+[2021-10-28T16:31:12.003073 33272] Trying direct lookup
+[2021-10-28T16:31:12.007070 33272] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/4/844d9af12021afe6b1c295818b8ec4-1571428.manifest
+[2021-10-28T16:31:12.079071 33272] Got object file hash from manifest
+[2021-10-28T16:31:12.079071 33272] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/a/d3993a07ec9daa255215645247e577-2931869.o to module.psutil._psbsd.o (uncompressed)
+[2021-10-28T16:31:12.080070 33272] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/a/d3993a07ec9daa255215645247e577-2931869.o -> module.psutil._psbsd.o
+[2021-10-28T16:31:12.081069 33272] Succeeded getting cached result
+[2021-10-28T16:31:12.081069 33272] Result: cache hit (direct)
+[2021-10-28T16:31:12.081069 33272] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-10-28T16:31:12.083069 33272] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-10-28T16:31:12.138070 5080 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) base_dir = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) compiler = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) compression = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) debug = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) disable = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) hard_link = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.138070 5080 ] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) max_files = 0
+[2021-10-28T16:31:12.138070 5080 ] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) path = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) read_only = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) recache = false
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) stats = true
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.138070 5080 ] Config: (default) umask = 
+[2021-10-28T16:31:12.138070 5080 ] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil._pslinux.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil._pslinux.c
+[2021-10-28T16:31:12.138070 5080 ] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.139071 5080 ] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.139071 5080 ] Source file: module.psutil._pslinux.c
+[2021-10-28T16:31:12.139071 5080 ] Object file: module.psutil._pslinux.o
+[2021-10-28T16:31:12.139071 5080 ] Trying direct lookup
+[2021-10-28T16:31:12.148069 5080 ] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/a/432288d59df7621b1f384b596acb14-3724019.manifest
+[2021-10-28T16:31:12.191070 19172] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.191070 19172] Config: (default) base_dir = 
+[2021-10-28T16:31:12.191070 19172] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.191070 19172] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.191070 19172] Config: (default) compiler = 
+[2021-10-28T16:31:12.191070 19172] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.191070 19172] Config: (default) compression = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.191070 19172] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.191070 19172] Config: (default) debug = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.191070 19172] Config: (default) disable = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.191070 19172] Config: (default) hard_link = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.191070 19172] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.191070 19172] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.191070 19172] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.191070 19172] Config: (default) max_files = 0
+[2021-10-28T16:31:12.191070 19172] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.191070 19172] Config: (default) path = 
+[2021-10-28T16:31:12.191070 19172] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.191070 19172] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.191070 19172] Config: (default) read_only = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) recache = false
+[2021-10-28T16:31:12.191070 19172] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.191070 19172] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.191070 19172] Config: (default) stats = true
+[2021-10-28T16:31:12.191070 19172] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.191070 19172] Config: (default) umask = 
+[2021-10-28T16:31:12.191070 19172] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil._psosx.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil._psosx.c
+[2021-10-28T16:31:12.191070 19172] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.191070 19172] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.192070 19172] Source file: module.psutil._psosx.c
+[2021-10-28T16:31:12.192070 19172] Object file: module.psutil._psosx.o
+[2021-10-28T16:31:12.192070 19172] Trying direct lookup
+[2021-10-28T16:31:12.195070 19172] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/6/b5c6c0e6ddfd8dcbdc85aa624beade-1161508.manifest
+[2021-10-28T16:31:12.216071 5080 ] Got object file hash from manifest
+[2021-10-28T16:31:12.216071 5080 ] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/7/2cf83ba8a66527269d4ace252140fb-5273982.o to module.psutil._pslinux.o (uncompressed)
+[2021-10-28T16:31:12.217071 5080 ] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/7/2cf83ba8a66527269d4ace252140fb-5273982.o -> module.psutil._pslinux.o
+[2021-10-28T16:31:12.218071 5080 ] Succeeded getting cached result
+[2021-10-28T16:31:12.218071 5080 ] Result: cache hit (direct)
+[2021-10-28T16:31:12.218071 5080 ] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-10-28T16:31:12.220072 5080 ] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-10-28T16:31:12.241070 13376] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.241070 13376] Config: (default) base_dir = 
+[2021-10-28T16:31:12.241070 13376] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.241070 13376] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.241070 13376] Config: (default) compiler = 
+[2021-10-28T16:31:12.241070 13376] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.241070 13376] Config: (default) compression = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.241070 13376] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.241070 13376] Config: (default) debug = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.241070 13376] Config: (default) disable = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.241070 13376] Config: (default) hard_link = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.241070 13376] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.241070 13376] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.241070 13376] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.241070 13376] Config: (default) max_files = 0
+[2021-10-28T16:31:12.241070 13376] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.241070 13376] Config: (default) path = 
+[2021-10-28T16:31:12.241070 13376] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.241070 13376] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.241070 13376] Config: (default) read_only = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) recache = false
+[2021-10-28T16:31:12.241070 13376] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.241070 13376] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.241070 13376] Config: (default) stats = true
+[2021-10-28T16:31:12.241070 13376] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.241070 13376] Config: (default) umask = 
+[2021-10-28T16:31:12.242070 13376] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil._psposix.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil._psposix.c
+[2021-10-28T16:31:12.242070 13376] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.242070 13376] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.242070 13376] Source file: module.psutil._psposix.c
+[2021-10-28T16:31:12.242070 13376] Object file: module.psutil._psposix.o
+[2021-10-28T16:31:12.242070 13376] Trying direct lookup
+[2021-10-28T16:31:12.243069 13376] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/0/24dc989822448e79d41831090acb60-235636.manifest
+[2021-10-28T16:31:12.260069 29724] Got object file hash from preprocessor
+[2021-10-28T16:31:12.263073 29724] Object file C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/5c381e91d446ef3ec05a966c47a7c2-2636353.o not in cache
+[2021-10-28T16:31:12.263073 29724] Running real compiler
+[2021-10-28T16:31:12.271070 19172] Got object file hash from manifest
+[2021-10-28T16:31:12.272071 19172] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/1/5ab1dca79b02537a1db9e930fa4a14-2525982.o to module.psutil._psosx.o (uncompressed)
+[2021-10-28T16:31:12.272071 19172] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/1/5ab1dca79b02537a1db9e930fa4a14-2525982.o -> module.psutil._psosx.o
+[2021-10-28T16:31:12.273071 19172] Succeeded getting cached result
+[2021-10-28T16:31:12.273071 19172] Result: cache hit (direct)
+[2021-10-28T16:31:12.273071 19172] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-10-28T16:31:12.278079 19172] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-10-28T16:31:12.310070 14400] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.310070 14400] Config: (default) base_dir = 
+[2021-10-28T16:31:12.310070 14400] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.310070 14400] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.310070 14400] Config: (default) compiler = 
+[2021-10-28T16:31:12.310070 14400] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.310070 14400] Config: (default) compression = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.310070 14400] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.310070 14400] Config: (default) debug = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.310070 14400] Config: (default) disable = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.310070 14400] Config: (default) hard_link = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.310070 14400] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.310070 14400] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.310070 14400] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.310070 14400] Config: (default) max_files = 0
+[2021-10-28T16:31:12.310070 14400] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.310070 14400] Config: (default) path = 
+[2021-10-28T16:31:12.310070 14400] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.310070 14400] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.310070 14400] Config: (default) read_only = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) recache = false
+[2021-10-28T16:31:12.310070 14400] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.310070 14400] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.310070 14400] Config: (default) stats = true
+[2021-10-28T16:31:12.310070 14400] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.310070 14400] Config: (default) umask = 
+[2021-10-28T16:31:12.311070 14400] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil._pssunos.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil._pssunos.c
+[2021-10-28T16:31:12.311070 14400] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.311070 14400] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.312070 14400] Source file: module.psutil._pssunos.c
+[2021-10-28T16:31:12.312070 14400] Object file: module.psutil._pssunos.o
+[2021-10-28T16:31:12.312070 14400] Trying direct lookup
+[2021-10-28T16:31:12.315071 14400] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/9/a593a9baa1ced02f24f88fc2e2ba98-1316267.manifest
+[2021-10-28T16:31:12.319071 13376] Got object file hash from manifest
+[2021-10-28T16:31:12.320071 13376] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/b/10640d3a324db10c6399f9b03abfd5-1578471.o to module.psutil._psposix.o (uncompressed)
+[2021-10-28T16:31:12.320071 13376] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/b/10640d3a324db10c6399f9b03abfd5-1578471.o -> module.psutil._psposix.o
+[2021-10-28T16:31:12.321072 13376] Succeeded getting cached result
+[2021-10-28T16:31:12.321072 13376] Result: cache hit (direct)
+[2021-10-28T16:31:12.321072 13376] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-10-28T16:31:12.327073 13376] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/stats.lock
+[2021-10-28T16:31:12.381070 14400] Got object file hash from manifest
+[2021-10-28T16:31:12.382073 14400] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/a/bf46ee27e6f4851cfc2b57da656f74-2664677.o to module.psutil._pssunos.o (uncompressed)
+[2021-10-28T16:31:12.383073 14400] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/a/bf46ee27e6f4851cfc2b57da656f74-2664677.o -> module.psutil._pssunos.o
+[2021-10-28T16:31:12.383073 14400] Succeeded getting cached result
+[2021-10-28T16:31:12.383073 14400] Result: cache hit (direct)
+[2021-10-28T16:31:12.383073 14400] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-10-28T16:31:12.386071 14400] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-10-28T16:31:12.408072 29820] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.408072 29820] Config: (default) base_dir = 
+[2021-10-28T16:31:12.408072 29820] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.408072 29820] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.408072 29820] Config: (default) compiler = 
+[2021-10-28T16:31:12.408072 29820] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.408072 29820] Config: (default) compression = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.408072 29820] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.408072 29820] Config: (default) debug = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.408072 29820] Config: (default) disable = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.408072 29820] Config: (default) hard_link = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.408072 29820] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.408072 29820] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.408072 29820] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.408072 29820] Config: (default) max_files = 0
+[2021-10-28T16:31:12.408072 29820] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.408072 29820] Config: (default) path = 
+[2021-10-28T16:31:12.408072 29820] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.408072 29820] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.408072 29820] Config: (default) read_only = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) recache = false
+[2021-10-28T16:31:12.408072 29820] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.408072 29820] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.408072 29820] Config: (default) stats = true
+[2021-10-28T16:31:12.408072 29820] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.408072 29820] Config: (default) umask = 
+[2021-10-28T16:31:12.409107 29820] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil._pswindows.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil._pswindows.c
+[2021-10-28T16:31:12.409107 29820] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.409107 29820] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.409107 29820] Source file: module.psutil._pswindows.c
+[2021-10-28T16:31:12.409107 29820] Object file: module.psutil._pswindows.o
+[2021-10-28T16:31:12.409107 29820] Trying direct lookup
+[2021-10-28T16:31:12.414071 29820] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/6/93048db1c5dfbd18fab1d62abc8472-1867576.manifest
+[2021-10-28T16:31:12.476074 29820] Got object file hash from manifest
+[2021-10-28T16:31:12.477075 29820] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/44ae7f457f2d9a5d3afcc9a55e6db7-3194990.o to module.psutil._pswindows.o (uncompressed)
+[2021-10-28T16:31:12.478074 29820] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/44ae7f457f2d9a5d3afcc9a55e6db7-3194990.o -> module.psutil._pswindows.o
+[2021-10-28T16:31:12.478074 29820] Succeeded getting cached result
+[2021-10-28T16:31:12.478074 29820] Result: cache hit (direct)
+[2021-10-28T16:31:12.478074 29820] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-10-28T16:31:12.482071 29820] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/stats.lock
+[2021-10-28T16:31:12.482071 31084] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.482071 31084] Config: (default) base_dir = 
+[2021-10-28T16:31:12.482071 31084] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.482071 31084] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.482071 31084] Config: (default) compiler = 
+[2021-10-28T16:31:12.482071 31084] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.482071 31084] Config: (default) compression = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.482071 31084] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.482071 31084] Config: (default) debug = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.482071 31084] Config: (default) disable = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.482071 31084] Config: (default) hard_link = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.482071 31084] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.482071 31084] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.482071 31084] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.482071 31084] Config: (default) max_files = 0
+[2021-10-28T16:31:12.482071 31084] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.482071 31084] Config: (default) path = 
+[2021-10-28T16:31:12.482071 31084] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.482071 31084] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.482071 31084] Config: (default) read_only = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) recache = false
+[2021-10-28T16:31:12.482071 31084] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.482071 31084] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.482071 31084] Config: (default) stats = true
+[2021-10-28T16:31:12.482071 31084] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.482071 31084] Config: (default) umask = 
+[2021-10-28T16:31:12.483073 31084] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.psutil.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.psutil.c
+[2021-10-28T16:31:12.483073 31084] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.483073 31084] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.484071 31084] Source file: module.psutil.c
+[2021-10-28T16:31:12.484071 31084] Object file: module.psutil.o
+[2021-10-28T16:31:12.484071 31084] Trying direct lookup
+[2021-10-28T16:31:12.491071 31084] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/3/2ca601cda20ddea311e4162b2ff424-2452935.manifest
+[2021-10-28T16:31:12.515070 18724] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.515070 18724] Config: (default) base_dir = 
+[2021-10-28T16:31:12.515070 18724] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.515070 18724] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.515070 18724] Config: (default) compiler = 
+[2021-10-28T16:31:12.515070 18724] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.515070 18724] Config: (default) compression = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.515070 18724] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.515070 18724] Config: (default) debug = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.515070 18724] Config: (default) disable = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.515070 18724] Config: (default) hard_link = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.515070 18724] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.515070 18724] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.515070 18724] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.515070 18724] Config: (default) max_files = 0
+[2021-10-28T16:31:12.515070 18724] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.515070 18724] Config: (default) path = 
+[2021-10-28T16:31:12.515070 18724] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.515070 18724] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.515070 18724] Config: (default) read_only = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) recache = false
+[2021-10-28T16:31:12.515070 18724] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.515070 18724] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.515070 18724] Config: (default) stats = true
+[2021-10-28T16:31:12.515070 18724] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.515070 18724] Config: (default) umask = 
+[2021-10-28T16:31:12.516070 18724] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.worker.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.worker.c
+[2021-10-28T16:31:12.516070 18724] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.516070 18724] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.516070 18724] Source file: module.worker.c
+[2021-10-28T16:31:12.516070 18724] Object file: module.worker.o
+[2021-10-28T16:31:12.517070 18724] Trying direct lookup
+[2021-10-28T16:31:12.517070 18724] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/b/02bf16ca20a4c15357c7ea63d37075-73037.manifest
+[2021-10-28T16:31:12.547070 12360] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.547070 12360] Config: (default) base_dir = 
+[2021-10-28T16:31:12.547070 12360] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.547070 12360] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.547070 12360] Config: (default) compiler = 
+[2021-10-28T16:31:12.547070 12360] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.547070 12360] Config: (default) compression = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.547070 12360] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.547070 12360] Config: (default) debug = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.547070 12360] Config: (default) disable = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.547070 12360] Config: (default) hard_link = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.547070 12360] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.547070 12360] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.547070 12360] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.547070 12360] Config: (default) max_files = 0
+[2021-10-28T16:31:12.547070 12360] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.547070 12360] Config: (default) path = 
+[2021-10-28T16:31:12.547070 12360] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.547070 12360] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.547070 12360] Config: (default) read_only = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) recache = false
+[2021-10-28T16:31:12.547070 12360] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.547070 12360] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.547070 12360] Config: (default) stats = true
+[2021-10-28T16:31:12.547070 12360] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.547070 12360] Config: (default) umask = 
+[2021-10-28T16:31:12.547070 12360] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.worker.clean_memory.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.worker.clean_memory.c
+[2021-10-28T16:31:12.547070 12360] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.547070 12360] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.548070 12360] Source file: module.worker.clean_memory.c
+[2021-10-28T16:31:12.548070 12360] Object file: module.worker.clean_memory.o
+[2021-10-28T16:31:12.548070 12360] Trying direct lookup
+[2021-10-28T16:31:12.548070 12360] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/a/7/fef9d1e8139da05118c07a08a2045e-77910.manifest
+[2021-10-28T16:31:12.556072 31084] Got object file hash from manifest
+[2021-10-28T16:31:12.556072 31084] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/2/53935ff95a7c7d4813e849a473712f-3783772.o to module.psutil.o (uncompressed)
+[2021-10-28T16:31:12.557070 31084] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/2/53935ff95a7c7d4813e849a473712f-3783772.o -> module.psutil.o
+[2021-10-28T16:31:12.558073 31084] Succeeded getting cached result
+[2021-10-28T16:31:12.558073 31084] Result: cache hit (direct)
+[2021-10-28T16:31:12.558073 31084] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-10-28T16:31:12.560073 31084] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/1/stats.lock
+[2021-10-28T16:31:12.588071 3324 ] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) base_dir = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) compiler = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) compression = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) debug = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) disable = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) hard_link = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.588071 3324 ] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) max_files = 0
+[2021-10-28T16:31:12.588071 3324 ] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) path = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) read_only = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) recache = false
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) stats = true
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.588071 3324 ] Config: (default) umask = 
+[2021-10-28T16:31:12.588071 3324 ] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.worker.tracking_memory.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.worker.tracking_memory.c
+[2021-10-28T16:31:12.588071 3324 ] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.589072 3324 ] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.589072 3324 ] Source file: module.worker.tracking_memory.c
+[2021-10-28T16:31:12.589072 3324 ] Object file: module.worker.tracking_memory.o
+[2021-10-28T16:31:12.589072 3324 ] Trying direct lookup
+[2021-10-28T16:31:12.590072 3324 ] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/a/b1091fa370dea22aa60842ede41bc7-80730.manifest
+[2021-10-28T16:31:12.596071 18724] Got object file hash from manifest
+[2021-10-28T16:31:12.597071 18724] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/d/995e6ce00628d08caad59f12d3b095-1405405.o to module.worker.o (uncompressed)
+[2021-10-28T16:31:12.597071 18724] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/d/995e6ce00628d08caad59f12d3b095-1405405.o -> module.worker.o
+[2021-10-28T16:31:12.598073 18724] Succeeded getting cached result
+[2021-10-28T16:31:12.598073 18724] Result: cache hit (direct)
+[2021-10-28T16:31:12.598073 18724] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-10-28T16:31:12.600072 18724] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/stats.lock
+[2021-10-28T16:31:12.627068 12360] Got object file hash from manifest
+[2021-10-28T16:31:12.628070 12360] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/4cfb7bfa2edb573a2ba877d909fc9e-1411504.o to module.worker.clean_memory.o (uncompressed)
+[2021-10-28T16:31:12.628070 12360] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/4cfb7bfa2edb573a2ba877d909fc9e-1411504.o -> module.worker.clean_memory.o
+[2021-10-28T16:31:12.628070 12360] Succeeded getting cached result
+[2021-10-28T16:31:12.629071 12360] Result: cache hit (direct)
+[2021-10-28T16:31:12.629071 12360] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-10-28T16:31:12.631072 12360] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-10-28T16:31:12.641070 24248] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.641070 24248] Config: (default) base_dir = 
+[2021-10-28T16:31:12.641070 24248] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.641070 24248] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.641070 24248] Config: (default) compiler = 
+[2021-10-28T16:31:12.641070 24248] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.641070 24248] Config: (default) compression = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.641070 24248] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.641070 24248] Config: (default) debug = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.641070 24248] Config: (default) disable = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.641070 24248] Config: (default) hard_link = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.641070 24248] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.641070 24248] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.641070 24248] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.641070 24248] Config: (default) max_files = 0
+[2021-10-28T16:31:12.641070 24248] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.641070 24248] Config: (default) path = 
+[2021-10-28T16:31:12.641070 24248] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.641070 24248] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.641070 24248] Config: (default) read_only = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) recache = false
+[2021-10-28T16:31:12.641070 24248] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.641070 24248] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.641070 24248] Config: (default) stats = true
+[2021-10-28T16:31:12.641070 24248] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.641070 24248] Config: (default) umask = 
+[2021-10-28T16:31:12.642073 24248] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o module.worker.window_show.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src module.worker.window_show.c
+[2021-10-28T16:31:12.642073 24248] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.642073 24248] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.642073 24248] Source file: module.worker.window_show.c
+[2021-10-28T16:31:12.642073 24248] Object file: module.worker.window_show.o
+[2021-10-28T16:31:12.643072 24248] Trying direct lookup
+[2021-10-28T16:31:12.643072 24248] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/c/dcb7b155eded3bb372e219de52647b-183394.manifest
+[2021-10-28T16:31:12.663071 3324 ] Got object file hash from manifest
+[2021-10-28T16:31:12.664071 3324 ] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/6e025c92498334a444803edc8310f9-1414387.o to module.worker.tracking_memory.o (uncompressed)
+[2021-10-28T16:31:12.664071 3324 ] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/0/6e025c92498334a444803edc8310f9-1414387.o -> module.worker.tracking_memory.o
+[2021-10-28T16:31:12.664071 3324 ] Succeeded getting cached result
+[2021-10-28T16:31:12.665072 3324 ] Result: cache hit (direct)
+[2021-10-28T16:31:12.665072 3324 ] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-10-28T16:31:12.667071 3324 ] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/stats.lock
+[2021-10-28T16:31:12.686070 30640] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.686070 30640] Config: (default) base_dir = 
+[2021-10-28T16:31:12.686070 30640] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.686070 30640] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.686070 30640] Config: (default) compiler = 
+[2021-10-28T16:31:12.686070 30640] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.686070 30640] Config: (default) compression = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.686070 30640] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.686070 30640] Config: (default) debug = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.686070 30640] Config: (default) disable = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.686070 30640] Config: (default) hard_link = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.686070 30640] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.686070 30640] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.686070 30640] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.686070 30640] Config: (default) max_files = 0
+[2021-10-28T16:31:12.686070 30640] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.686070 30640] Config: (default) path = 
+[2021-10-28T16:31:12.686070 30640] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.686070 30640] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.686070 30640] Config: (default) read_only = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) recache = false
+[2021-10-28T16:31:12.686070 30640] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.686070 30640] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.686070 30640] Config: (default) stats = true
+[2021-10-28T16:31:12.686070 30640] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.686070 30640] Config: (default) umask = 
+[2021-10-28T16:31:12.687071 30640] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o static_src\MainProgram.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src static_src\MainProgram.c
+[2021-10-28T16:31:12.687071 30640] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.687071 30640] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.687071 30640] Source file: static_src\MainProgram.c
+[2021-10-28T16:31:12.687071 30640] Object file: static_src\MainProgram.o
+[2021-10-28T16:31:12.687071 30640] Trying direct lookup
+[2021-10-28T16:31:12.688070 30640] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/6/a1067ad933572ebbebd1e054795c1a-28595.manifest
+[2021-10-28T16:31:12.713073 33548] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.713073 33548] Config: (default) base_dir = 
+[2021-10-28T16:31:12.713073 33548] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.713073 33548] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.713073 33548] Config: (default) compiler = 
+[2021-10-28T16:31:12.713073 33548] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.713073 33548] Config: (default) compression = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.713073 33548] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.713073 33548] Config: (default) debug = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.713073 33548] Config: (default) disable = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.713073 33548] Config: (default) hard_link = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.713073 33548] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.713073 33548] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.713073 33548] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.713073 33548] Config: (default) max_files = 0
+[2021-10-28T16:31:12.713073 33548] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.713073 33548] Config: (default) path = 
+[2021-10-28T16:31:12.713073 33548] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.713073 33548] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.713073 33548] Config: (default) read_only = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) recache = false
+[2021-10-28T16:31:12.713073 33548] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.713073 33548] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.713073 33548] Config: (default) stats = true
+[2021-10-28T16:31:12.713073 33548] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.713073 33548] Config: (default) umask = 
+[2021-10-28T16:31:12.714070 33548] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o static_src\CompiledCellType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledCellType.c
+[2021-10-28T16:31:12.714070 33548] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.714070 33548] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.714070 33548] Source file: static_src\CompiledCellType.c
+[2021-10-28T16:31:12.714070 33548] Object file: static_src\CompiledCellType.o
+[2021-10-28T16:31:12.715071 33548] Trying direct lookup
+[2021-10-28T16:31:12.715071 33548] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/f/8f231c85aaff6c2680eda360e1ac89-8034.manifest
+[2021-10-28T16:31:12.716072 24248] Got object file hash from manifest
+[2021-10-28T16:31:12.716072 24248] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/e/cfdfe097db564e5e162d5cc9f18cb7-1524670.o to module.worker.window_show.o (uncompressed)
+[2021-10-28T16:31:12.717072 24248] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/e/cfdfe097db564e5e162d5cc9f18cb7-1524670.o -> module.worker.window_show.o
+[2021-10-28T16:31:12.717072 24248] Succeeded getting cached result
+[2021-10-28T16:31:12.717072 24248] Result: cache hit (direct)
+[2021-10-28T16:31:12.718072 24248] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-10-28T16:31:12.723071 24248] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-10-28T16:31:12.783071 30640] Got object file hash from manifest
+[2021-10-28T16:31:12.784073 30640] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/e/67b3fe64cee8873604b7e01caa6483-2687015.o to static_src\MainProgram.o (uncompressed)
+[2021-10-28T16:31:12.784073 30640] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/e/67b3fe64cee8873604b7e01caa6483-2687015.o -> static_src\MainProgram.o
+[2021-10-28T16:31:12.784073 30640] Succeeded getting cached result
+[2021-10-28T16:31:12.784073 30640] Result: cache hit (direct)
+[2021-10-28T16:31:12.785072 30640] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-10-28T16:31:12.787071 33548] Got object file hash from manifest
+[2021-10-28T16:31:12.787071 30640] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2021-10-28T16:31:12.787071 33548] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/1/c5997b97dd9748e3022e126f84e7ec-1353430.o to static_src\CompiledCellType.o (uncompressed)
+[2021-10-28T16:31:12.788074 33548] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/1/c5997b97dd9748e3022e126f84e7ec-1353430.o -> static_src\CompiledCellType.o
+[2021-10-28T16:31:12.788074 33548] Succeeded getting cached result
+[2021-10-28T16:31:12.788074 33548] Result: cache hit (direct)
+[2021-10-28T16:31:12.789078 33548] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-10-28T16:31:12.791071 33548] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/stats.lock
+[2021-10-28T16:31:12.950074 32424] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:12.950074 32424] Config: (default) base_dir = 
+[2021-10-28T16:31:12.950074 32424] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:12.950074 32424] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:12.950074 32424] Config: (default) compiler = 
+[2021-10-28T16:31:12.950074 32424] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:12.950074 32424] Config: (default) compression = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) compression_level = 6
+[2021-10-28T16:31:12.950074 32424] Config: (default) cpp_extension = 
+[2021-10-28T16:31:12.950074 32424] Config: (default) debug = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) depend_mode = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) direct_mode = true
+[2021-10-28T16:31:12.950074 32424] Config: (default) disable = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:12.950074 32424] Config: (default) hard_link = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) hash_dir = true
+[2021-10-28T16:31:12.950074 32424] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:12.950074 32424] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:12.950074 32424] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:12.950074 32424] Config: (default) max_files = 0
+[2021-10-28T16:31:12.950074 32424] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:12.950074 32424] Config: (default) path = 
+[2021-10-28T16:31:12.950074 32424] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) prefix_command = 
+[2021-10-28T16:31:12.950074 32424] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:12.950074 32424] Config: (default) read_only = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) read_only_direct = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) recache = false
+[2021-10-28T16:31:12.950074 32424] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:12.950074 32424] Config: (default) sloppiness = 
+[2021-10-28T16:31:12.950074 32424] Config: (default) stats = true
+[2021-10-28T16:31:12.950074 32424] Config: (default) temporary_dir = 
+[2021-10-28T16:31:12.950074 32424] Config: (default) umask = 
+[2021-10-28T16:31:12.951072 32424] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o static_src\CompiledFunctionType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledFunctionType.c
+[2021-10-28T16:31:12.951072 32424] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:12.951072 32424] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:12.951072 32424] Source file: static_src\CompiledFunctionType.c
+[2021-10-28T16:31:12.951072 32424] Object file: static_src\CompiledFunctionType.o
+[2021-10-28T16:31:12.951072 32424] Trying direct lookup
+[2021-10-28T16:31:12.952071 32424] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/8d2b12bbc86ce1e12f0de2c1fc92b7-87972.manifest
+[2021-10-28T16:31:13.016072 28164] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:13.016072 28164] Config: (default) base_dir = 
+[2021-10-28T16:31:13.016072 28164] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:13.016072 28164] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:13.016072 28164] Config: (default) compiler = 
+[2021-10-28T16:31:13.016072 28164] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:13.016072 28164] Config: (default) compression = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) compression_level = 6
+[2021-10-28T16:31:13.016072 28164] Config: (default) cpp_extension = 
+[2021-10-28T16:31:13.016072 28164] Config: (default) debug = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) depend_mode = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) direct_mode = true
+[2021-10-28T16:31:13.016072 28164] Config: (default) disable = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:13.016072 28164] Config: (default) hard_link = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) hash_dir = true
+[2021-10-28T16:31:13.016072 28164] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:13.016072 28164] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:13.016072 28164] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:13.016072 28164] Config: (default) max_files = 0
+[2021-10-28T16:31:13.016072 28164] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:13.016072 28164] Config: (default) path = 
+[2021-10-28T16:31:13.016072 28164] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) prefix_command = 
+[2021-10-28T16:31:13.016072 28164] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:13.016072 28164] Config: (default) read_only = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) read_only_direct = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) recache = false
+[2021-10-28T16:31:13.016072 28164] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:13.016072 28164] Config: (default) sloppiness = 
+[2021-10-28T16:31:13.016072 28164] Config: (default) stats = true
+[2021-10-28T16:31:13.016072 28164] Config: (default) temporary_dir = 
+[2021-10-28T16:31:13.016072 28164] Config: (default) umask = 
+[2021-10-28T16:31:13.016072 28164] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o static_src\CompiledGeneratorType.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src static_src\CompiledGeneratorType.c
+[2021-10-28T16:31:13.016072 28164] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:13.016072 28164] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:13.017071 28164] Source file: static_src\CompiledGeneratorType.c
+[2021-10-28T16:31:13.017071 28164] Object file: static_src\CompiledGeneratorType.o
+[2021-10-28T16:31:13.017071 28164] Trying direct lookup
+[2021-10-28T16:31:13.017071 28164] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/0/c/d5f09fb44bff9ff95daf8a7b92c777-57377.manifest
+[2021-10-28T16:31:13.050073 24444] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:13.050073 24444] Config: (default) base_dir = 
+[2021-10-28T16:31:13.050073 24444] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:13.050073 24444] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:13.050073 24444] Config: (default) compiler = 
+[2021-10-28T16:31:13.050073 24444] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:13.050073 24444] Config: (default) compression = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) compression_level = 6
+[2021-10-28T16:31:13.050073 24444] Config: (default) cpp_extension = 
+[2021-10-28T16:31:13.050073 24444] Config: (default) debug = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) depend_mode = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) direct_mode = true
+[2021-10-28T16:31:13.050073 24444] Config: (default) disable = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:13.050073 24444] Config: (default) hard_link = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) hash_dir = true
+[2021-10-28T16:31:13.050073 24444] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:13.050073 24444] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:13.050073 24444] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:13.050073 24444] Config: (default) max_files = 0
+[2021-10-28T16:31:13.050073 24444] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:13.050073 24444] Config: (default) path = 
+[2021-10-28T16:31:13.050073 24444] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) prefix_command = 
+[2021-10-28T16:31:13.050073 24444] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:13.050073 24444] Config: (default) read_only = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) read_only_direct = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) recache = false
+[2021-10-28T16:31:13.050073 24444] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:13.050073 24444] Config: (default) sloppiness = 
+[2021-10-28T16:31:13.050073 24444] Config: (default) stats = true
+[2021-10-28T16:31:13.050073 24444] Config: (default) temporary_dir = 
+[2021-10-28T16:31:13.050073 24444] Config: (default) umask = 
+[2021-10-28T16:31:13.051073 24444] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o static_src\InspectPatcher.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src static_src\InspectPatcher.c
+[2021-10-28T16:31:13.051073 24444] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:13.051073 24444] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:13.051073 24444] Source file: static_src\InspectPatcher.c
+[2021-10-28T16:31:13.051073 24444] Object file: static_src\InspectPatcher.o
+[2021-10-28T16:31:13.052071 24444] Trying direct lookup
+[2021-10-28T16:31:13.052071 24444] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/c/c2d6e44c946dfa80843ec8202182aa-13698.manifest
+[2021-10-28T16:31:13.071071 32424] Got object file hash from manifest
+[2021-10-28T16:31:13.072070 32424] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/1/dc72599f11f31d2cbd0efdd148c519-4951284.o to static_src\CompiledFunctionType.o (uncompressed)
+[2021-10-28T16:31:13.072070 32424] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/1/dc72599f11f31d2cbd0efdd148c519-4951284.o -> static_src\CompiledFunctionType.o
+[2021-10-28T16:31:13.073070 32424] Succeeded getting cached result
+[2021-10-28T16:31:13.073070 32424] Result: cache hit (direct)
+[2021-10-28T16:31:13.073070 32424] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-10-28T16:31:13.076072 32424] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-10-28T16:31:13.105070 28164] Got object file hash from manifest
+[2021-10-28T16:31:13.105070 28164] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/d/18c525964b471a4acb44cfa5262178-1545846.o to static_src\CompiledGeneratorType.o (uncompressed)
+[2021-10-28T16:31:13.106071 28164] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/d/18c525964b471a4acb44cfa5262178-1545846.o -> static_src\CompiledGeneratorType.o
+[2021-10-28T16:31:13.106071 28164] Succeeded getting cached result
+[2021-10-28T16:31:13.106071 28164] Result: cache hit (direct)
+[2021-10-28T16:31:13.107072 28164] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-10-28T16:31:13.113073 28164] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-10-28T16:31:13.114071 28556] === CCACHE 3.7.12 STARTED =========================================
+[2021-10-28T16:31:13.114071 28556] Config: (default) base_dir = 
+[2021-10-28T16:31:13.114071 28556] Config: (environment) cache_dir = C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2021-10-28T16:31:13.114071 28556] Config: (default) cache_dir_levels = 2
+[2021-10-28T16:31:13.114071 28556] Config: (default) compiler = 
+[2021-10-28T16:31:13.114071 28556] Config: (default) compiler_check = mtime
+[2021-10-28T16:31:13.114071 28556] Config: (default) compression = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) compression_level = 6
+[2021-10-28T16:31:13.114071 28556] Config: (default) cpp_extension = 
+[2021-10-28T16:31:13.114071 28556] Config: (default) debug = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) depend_mode = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) direct_mode = true
+[2021-10-28T16:31:13.114071 28556] Config: (default) disable = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) extra_files_to_hash = 
+[2021-10-28T16:31:13.114071 28556] Config: (default) hard_link = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) hash_dir = true
+[2021-10-28T16:31:13.114071 28556] Config: (default) ignore_headers_in_manifest = 
+[2021-10-28T16:31:13.114071 28556] Config: (default) keep_comments_cpp = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) limit_multiple = 0.8
+[2021-10-28T16:31:13.114071 28556] Config: (environment) log_file = D:\Projects\Memfy\memfy.build\ccache-34520.txt
+[2021-10-28T16:31:13.114071 28556] Config: (default) max_files = 0
+[2021-10-28T16:31:13.114071 28556] Config: (C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/ccache.conf) max_size = 5.0G
+[2021-10-28T16:31:13.114071 28556] Config: (default) path = 
+[2021-10-28T16:31:13.114071 28556] Config: (default) pch_external_checksum = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) prefix_command = 
+[2021-10-28T16:31:13.114071 28556] Config: (default) prefix_command_cpp = 
+[2021-10-28T16:31:13.114071 28556] Config: (default) read_only = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) read_only_direct = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) recache = false
+[2021-10-28T16:31:13.114071 28556] Config: (default) run_second_cpp = true
+[2021-10-28T16:31:13.114071 28556] Config: (default) sloppiness = 
+[2021-10-28T16:31:13.114071 28556] Config: (default) stats = true
+[2021-10-28T16:31:13.114071 28556] Config: (default) temporary_dir = 
+[2021-10-28T16:31:13.114071 28556] Config: (default) umask = 
+[2021-10-28T16:31:13.115072 28556] Command line: C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\ccache\v3.7.12\ccache.exe C:\Users\Duy Anh\AppData\Local\Nuitka\Nuitka\gcc\x86\10.2.0-11.0.0-8.0.0-r5\mingw32\bin\gcc.exe -o static_src\MetaPathBasedLoader.o -c -std=c11 -fvisibility=hidden -fwrapv -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -fcompare-debug-second -O3 -pipe -D_WIN32_WINNT=0x0501 -D_NUITKA_STANDALONE -D_NUITKA_WINMAIN_ENTRY_POINT -D__NUITKA_NO_ASSERT__ -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=165 -D_NUITKA_EXE -IC:\Users\Duy Anh\AppData\Local\Programs\Python\Python38-32\include -I. -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\include -ID:\Projects\Memfy\venv\lib\SITE-P~1\nuitka\build\static_src static_src\MetaPathBasedLoader.c
+[2021-10-28T16:31:13.115072 28556] Hostname: DESKTOP-NJFIS0D
+[2021-10-28T16:31:13.115072 28556] Working directory: D:\Projects\Memfy\memfy.build
+[2021-10-28T16:31:13.116072 28556] Source file: static_src\MetaPathBasedLoader.c
+[2021-10-28T16:31:13.116072 28556] Object file: static_src\MetaPathBasedLoader.o
+[2021-10-28T16:31:13.116072 28556] Trying direct lookup
+[2021-10-28T16:31:13.116072 28556] Looking for object file hash in C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/8/1/1dd5a6390e2ac54be5f67eba77468d-54263.manifest
+[2021-10-28T16:31:13.137069 24444] Got object file hash from manifest
+[2021-10-28T16:31:13.137069 24444] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/5/aff58ee35b1af85484f301ae8cf5d0-1358947.o to static_src\InspectPatcher.o (uncompressed)
+[2021-10-28T16:31:13.138070 24444] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/5/aff58ee35b1af85484f301ae8cf5d0-1358947.o -> static_src\InspectPatcher.o
+[2021-10-28T16:31:13.138070 24444] Succeeded getting cached result
+[2021-10-28T16:31:13.138070 24444] Result: cache hit (direct)
+[2021-10-28T16:31:13.138070 24444] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-10-28T16:31:13.141072 24444] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/stats.lock
+[2021-10-28T16:31:13.198073 28556] Got object file hash from manifest
+[2021-10-28T16:31:13.199071 28556] Copying C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/d/7bb03cd2b98cfecf47f6231a0ca97a-1380166.o to static_src\MetaPathBasedLoader.o (uncompressed)
+[2021-10-28T16:31:13.199071 28556] Created from cache: C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/d/7bb03cd2b98cfecf47f6231a0ca97a-1380166.o -> static_src\MetaPathBasedLoader.o
+[2021-10-28T16:31:13.200071 28556] Succeeded getting cached result
+[2021-10-28T16:31:13.200071 28556] Result: cache hit (direct)
+[2021-10-28T16:31:13.200071 28556] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-10-28T16:31:13.202072 28556] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/stats.lock
+[2021-10-28T16:31:21.797943 29724] Unlink C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/5c381e91d446ef3ec05a966c47a7c2-2636353.o.tmp.stdout.DESKTOP-NJFIS0D.29724.FzP5tM
+[2021-10-28T16:31:21.797943 29724] Unlink C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/5c381e91d446ef3ec05a966c47a7c2-2636353.o.tmp.stderr.DESKTOP-NJFIS0D.29724.1QBI6D
+[2021-10-28T16:31:21.798998 29724] Copying module.__main__.o to C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/5c381e91d446ef3ec05a966c47a7c2-2636353.o via C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/5c381e91d446ef3ec05a966c47a7c2-2636353.o.DESKTOP-NJFIS0D.29724.SS92c3 (uncompressed)
+[2021-10-28T16:31:21.800947 29724] Stored in cache: module.__main__.o -> C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/a/5c381e91d446ef3ec05a966c47a7c2-2636353.o (copied)
+[2021-10-28T16:31:21.805942 29724] Added object file hash to C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/1/9981558a01416a0ab6e059a30b578a-1276323.manifest
+[2021-10-28T16:31:21.805942 29724] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-10-28T16:31:21.807944 29724] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/stats.lock
+[2021-10-28T16:31:21.808942 29724] Result: cache miss
+[2021-10-28T16:31:21.809939 29724] Acquired lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock
+[2021-10-28T16:31:21.821947 29724] Releasing lock C:\Users\DUYANH~1\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/stats.lock

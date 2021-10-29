@@ -5,14 +5,13 @@ import os
 import config
 from api import api
 from hardware import hardware
-from PyQt5.QtCore import (QCoreApplication, QObject, QRunnable, QThread,
-                          QThreadPool, pyqtSignal)
+from PyQt5.QtCore import QThread, pyqtSignal
 import time
 import random
 
 class window_show(QThread):
 
-    thread__set_banner = pyqtSignal(int)
+    set_banner = pyqtSignal(int)
 
     application_request = None
 
@@ -25,7 +24,7 @@ class window_show(QThread):
         self.application()
 
         if window_show.banner_list:
-            self.thread__set_banner.emit(random.choice(list(window_show.banner_list)))
+            self.set_banner.emit(random.choice(list(window_show.banner_list)))
 
         self.stop()
 
