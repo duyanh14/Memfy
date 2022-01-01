@@ -3,7 +3,7 @@
 
 #define MyAppName "Memfy"
 #define MyAppVersion "1.0"
-#define MyAppPublisher "Nguyen Duy Anh"
+#define MyAppPublisher "Duy Anh"
 #define MyAppURL "https://memfy.net"
 #define MyAppExeName "memfy.exe"
 
